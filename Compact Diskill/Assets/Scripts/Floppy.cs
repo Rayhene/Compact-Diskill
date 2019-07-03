@@ -13,7 +13,7 @@ public class Floppy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        firePos = transform.FindChild("firePos");
+        firePos = transform.Find("firePos");
     }
 
     // Update is called once per frame
